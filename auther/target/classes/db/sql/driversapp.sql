@@ -1,0 +1,13 @@
+INSERT INTO `relation_type` (`relation_name`) VALUES ('OWNER_TO_OWNER');
+INSERT INTO `relation_type` (`relation_name`) VALUES ('OWNER_TO_DRIVER');
+INSERT INTO `relation_type` (`relation_name`) VALUES ('DRIVER_TO_DRIVER');
+INSERT INTO `relation_type` (`relation_name`) VALUES ('ADMIN_TO_ADMIN');
+INSERT INTO `relation_type` (`relation_name`) VALUES ('ADMIN_TO_OWNER');
+INSERT INTO `relation_type` (`relation_name`) VALUES ('ADMIN_TO_DRIVER');
+INSERT INTO `relation_type` (`relation_name`) VALUES ('GUEST_TO_GUEST');
+
+INSERT INTO `job_titles` (`title_id`, `title`, `title_type`) VALUES ('1', 'Wanted driver for commercial vehicles', 'LightCommercialVehicle'),('2', 'Wanted driver for motor vehices', 'LightMotorVehilcle'),('3', 'Wanted driver for motor cycles', 'MotorCycle');		
+INSERT INTO `job_types` (`job_type_id`, `name`) VALUES ('1', 'Bus Driver'), ('2', 'Chauffeur'), ('3', 'Delivery (commerce)'), ('4', 'Emergency Medical Technician (ambulance driver)'), ('5', 'Motorman (tram/streetcar driver)'), ('6', 'Pay Driver'), ('7', 'Racing Driver'), ('8', 'Taxicab Driver'), ('9', 'Test Driver'), ('10', 'Train Driver'), ('11', 'Truck Driver'), ('12', 'Valet Parking');
+INSERT INTO `vehicle_types` (`vehicle_type_id`, `name`) VALUES ('1', 'Hatchback'), ('2', 'Sedan'), ('3', 'MPV'), ('4', 'SUV'), ('5', 'Crossover'), ('6', 'Coupe'), ('7', 'Convertible');
+INSERT INTO `licence_type` (`licence_type_id`, `category_of_use`, `licence_class`, `vehicle_type_desc`, `visible`, `deleted`) VALUES ('1', 'Personal Use', 'MC 50CC (Motorcycle 50cc)', 'Motorcycles with an engine capacity of 50 cc or less', b'1', b'0'), ('2' , 'Personal Use', 'MCWOG/FVG', 'Motorcycles with any engine capacity, but without gears, including mopeds and scooters', b'1', b'0'), ('3' , 'Personal Use', 'LMV-NT', 'Light motor vehicles that are used for non-transport purposes', b'1', b'0'), ('4' , 'Personal Use', 'MC EX50CC', 'Motorcycles with gear, Motorcycles with a capacity of 50CC or more, Light Motor Vehicles (LMVs) including cars', b'1', b'0'), ('5' , 'Personal Use', 'MC With Gear or M/CYCL.WG', 'All motorcycles even with gear', b'1', b'0'), ('6' , 'Commercial Use', 'MGV', 'For medium goods vehicle', b'1', b'0'), ('7' , 'Commercial Use', 'HMV', 'Heavy Motor Vehicles', b'1', b'0'), ('8' , 'Commercial Use', 'HGMV', 'Heavy Goods Motor Vehicle', b'1', b'0'), ('9' , 'Commercial Use', 'HPMV/HTV', 'Heavy passenger motor vehicle/Heavy transport vehicle', b'1', ''), ('10' , 'Commercial Use', 'Trailer', 'Person holding heavy vehicle driving licence can apply for heavy trailer license', b'1', b'0'), ('11' , 'Commercial Use', 'LMV', 'Light motor vehicles including motorcars, jeeps, taxis, delivery vans', b'1', b'0');
+

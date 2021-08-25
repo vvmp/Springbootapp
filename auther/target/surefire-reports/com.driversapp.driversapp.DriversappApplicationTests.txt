@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.driversapp.driversapp.DriversappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.548 s - in com.driversapp.driversapp.DriversappApplicationTests
